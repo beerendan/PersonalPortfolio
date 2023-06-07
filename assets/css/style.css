@@ -1,0 +1,83 @@
+:root {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(14, 105, 75);
+    --borders: rgb(16, 77, 16);
+    --bg: rgb(9, 121, 84);;
+    padding:2%;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links {
+    display:flex;
+    justify-content: space-evenly;
+    border: 5px solid;
+    background-color: var(--bg);
+    font-size: large;
+    padding: 1%;
+    border-color: var(--borders);
+    
+    
+}    
+
+#About{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:10px;
+    border: 5px solid;
+    padding: 1%;
+    background-color: var(--bg);
+    border-color: var(--borders);
+}
+
+#me {
+    width:25%;
+    height:25%;
+    
+}  
+
+.blurb{
+    display: flex;
+    text-rendering: geometricPrecision;
+    text-align:justify right;
+    color:antiquewhite;
+}
+
+#work{
+   
+    border: 5px solid;
+    background-color: var(--bg);
+    border-color: var(--borders);
+    margin-top:10px;
+    padding: 1%;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact{
+    display:flex;
+    border: 5px solid;
+    background-color: var(--bg);
+    border-color: var(--borders);
+    margin-top:10px; 
+    padding: 1%;
+}
