@@ -19,7 +19,7 @@ Clone the repository
 Open the html file and view it in your browser of choice
 
 
-Link to deployed project: 
+Link to deployed project: https://beerendan.github.io/PersonalPortfolio/
 
 Link to project gitHub repository: https://github.com/beerendan/PersonalPortfolio
 
